@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let palabra = 'JavaScript';
+        document.write( 'La palabra es:', palabra);
+        document.write('<br>');
+
+        //ver tamaño de un texto
+        document.write( 'Cantidad de letras: ', palabra. length);
+        document.write('<br>');
+        //ver caracteres especificos en un texto
+        document.write( 'primeras 4 letras: ', palabra.slice(1,5));
+        //cambiar valores en un texto
+        let saludo = 'Hola a todos';
+        saludo = saludo.replace( 'Hola', 'adios');
+        document.write(saludo);
+        document.write( '‹br›');
+        //poner en mayusculas
+        document.write('en mayusculas: ' , palabra. toUpperCase());
+        document.write( '‹br›');
+        //unir texto
+        let palabra2 = 'curso de ';
+        document.write('unir palabras:'  ,palabra2.concat (palabra));
+        let palabra3 = 'Hola        ';
+    document.write(palabra3);
+    document.write( '<br>');
+    document.write(palabra3.t/imStart());
+   </script>
+</body>
+</html>
